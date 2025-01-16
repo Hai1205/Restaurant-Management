@@ -1,7 +1,11 @@
-import React from 'react'
+import UserTable from "@/components/admin/user.table";
 
-export default function UserPage() {
-  return (
-    <div>UserPage</div>
-  )
+const ManageUserPage = () => {
+    return (
+        <div>
+            <UserTable />
+        </div>
+    )
 }
+
+export default ManageUserPage;
