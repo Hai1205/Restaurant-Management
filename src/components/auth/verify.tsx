@@ -91,7 +91,6 @@ const Verify = (props: any) => {
                 </fieldset>
             </Col>
         </Row>
-
     )
 }
 
