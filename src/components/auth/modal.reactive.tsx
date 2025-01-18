@@ -27,7 +27,6 @@ export default function ModalReactive(props: any) {
         email: userEmail,
       },
     });
-    console.log(res)
 
     if (res?.data) {
       setUserId(res?.data?._id);
